@@ -19,36 +19,18 @@ The system is divided into three main files,
 
 # HOW TO RUN
 
-1. Clone the Repository(git clone )
-2. Navigate to the Project Folder,
+1. Clone the Repository(git clone)
 
+2. Navigate to the Project Folder,
 * Open a terminal or command prompt.
 * Navigate to the folder where you extracted the repository using the cd command.
 * Install Required Packages (pip install -r requirements.txt)
 
-Execute the First File (Data Collection):
+3. Execute **1_data_collection.py** (python 1_data_collection.py)
 
-Navigate to the folder containing the first Python file (1_data_collection.py or similar).
-Run the Python file using the following command:
-bash
-Copy code
-python 1_data_collection.py
-Follow the on-screen instructions or refer to the comments in the file to understand how to collect data.
-Execute the Second File (Model Training):
+4. Execute **2_model_training.py** (python 1_data_collection.py)
 
-Navigate to the folder containing the second Python file (2_model_training.py or similar).
-Run the Python file using the following command:
-bash
-Copy code
-python 2_model_training.py
-Follow the on-screen instructions or refer to the comments in the file to understand how to train the model.
-Execute the Third File (Inference):
+5. Execute **3_inference.py** (python 1_data_collection.py)
 
-Navigate to the folder containing the third Python file (3_inference.py or similar).
-Run the Python file using the following command:
-bash
-Copy code
-python 3_inference.py
-Follow the on-screen instructions or refer to the comments in the file to understand how to perform inference.
 
 The project can be used to learn and recognize different yoga poses in real-time, which can be helpful for yoga practitioners to improve their form and technique.
